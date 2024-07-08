@@ -1,7 +1,15 @@
 @font-face {
-    font-family: "Source Sans Pro";
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    font-display: swap;
+    src: url("/fonts/LexendDeca-Regular.woff2") format("woff2"),
+      url("/fonts/LexendDeca-Regular.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Space Mono";
     font-weight: 700;
     font-display: swap;
-    src: url("/fonts/sourcesanspro-bold-webfont.woff2") format("woff2"),
-      url("/fonts/sourcesanspro-bold-webfont.woff") format("woff");
+    src: url("/fonts/spacemono-bold-webfont.woff2") format("woff2"),
+      url("/fonts/spacemono-bold-webfont.woff") format("woff");
   }
