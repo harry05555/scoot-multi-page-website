@@ -13,7 +13,6 @@
   padding: $button-padding;
   border: $button-border;
   border-radius: $button-border-radius;
-  transition: 275ms ease;
 
   &[data-type="accent"] {
     background-color: $button-accent-background;
@@ -32,6 +31,7 @@
     &:is(:hover, :focus) {
       background-color: $button-primary-background-hover;
       color: $button-primary-color-hover;
+      outline: 3px solid $button-primary-color-hover;
     }
   }
 }
