@@ -27,11 +27,12 @@
   &[data-type="primary"] {
     background-color: $button-primary-background;
     color: $button-primary-color;
+    border: 3px solid transparent;
 
     &:is(:hover, :focus) {
       background-color: $button-primary-background-hover;
       color: $button-primary-color-hover;
-      outline: 3px solid $button-primary-color-hover;
+      border-color: $button-primary-color-hover;
     }
   }
 }
